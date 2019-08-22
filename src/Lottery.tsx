@@ -88,6 +88,7 @@ class Lottery extends Component<Props<object>, State> {
                     highLightIndex: -1
                 });
             }, 1000);
+            this.uniformTimes = 0;
         }, 500)
         } else {
             if (this.currentIndex < CYCLE_TIMES) {
